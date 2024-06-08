@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Cerveza",
+        "description": "Lata de cerveza de 355ml.",
+        "price": 1.50,
+        "category": "cervezas",
+        "tags": ["alcohol", "bebida"],
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Papa",
+        "description": "Bolsa de papas de 1kg.",
+        "price": 0.80,
+        "category": "papa",
+        "tags": ["vegetal", "comida"],
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Pollo",
+        "description": "Pollo entero fresco.",
+        "price": 5.00,
+        "category": "pollo",
+        "tags": ["carne", "proteína"],
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Manzana",
+        "description": "Manzanas frescas por kg.",
+        "price": 2.00,
+        "category": "frutas",
+        "tags": ["fruta", "saludable"],
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Zanahoria",
+        "description": "Zanahorias frescas por kg.",
+        "price": 1.20,
+        "category": "verduras",
+        "tags": ["vegetal", "saludable"],
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "name": "Jugo de Naranja",
+        "description": "Jugo de naranja natural 1L.",
+        "price": 1.80,
+        "category": "bebidas",
+        "tags": ["bebida", "fruta"],
+        "image": "https://via.placeholder.com/300"
+    }
+]

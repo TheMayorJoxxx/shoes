@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Silva</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Tienda Silva Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="nosotros.html"><i class="fas fa-info-circle"></i> Nosotros</a></li>
+                <li><a href="index.html"><i class="fas fa-box"></i> Productos</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="images/banner.jpg" alt="Banner">
+    </div>
+    <div class="container">
+        <aside>
+            <nav>
+                <h2>Filtrar por Categoría</h2>
+                <ul>
+                    <li><a href="#" data-filter="all">Todos</a></li>
+                    <li><a href="#" data-filter="bebidas">Bebidas</a></li>
+                    <li><a href="#" data-filter="cervezas">Cervezas</a></li>
+                    <li><a href="#" data-filter="papa">Papa</a></li>
+                    <li><a href="#" data-filter="pollo">Pollo</a></li>
+                    <li><a href="#" data-filter="verduras">Verduras</a></li>
+                    <li><a href="#" data-filter="frutas">Frutas</a></li>
+                </ul>
+                <h2>Filtrar por Precio</h2>
+                <input type="range" id="priceRange" min="0" max="1000" step="10" value="1000">
+                <span id="priceValue">$1000</span>
+            </nav>
+            <h2>Buscar</h2>
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+        </aside>
+        <main>
+            <section id="product-list"></section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
